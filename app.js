@@ -40,10 +40,10 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-//首页影评
+/*首页影评
 var url='https://movie.douban.com/subject/6982558/comments?sort=new_score&status=P';
 //获取到网页数据
 var i =0;
 spider.fetch(url,i);
-
+*/
 module.exports = app;
