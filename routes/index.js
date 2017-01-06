@@ -1,5 +1,5 @@
 var express = require('express');
-var comment = require('../script/common/getComment');
+//var comment = require('../script/common/getComment');
 var router = express.Router();
 var fs= require('fs');
 /* GET home page. */
