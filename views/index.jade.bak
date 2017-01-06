@@ -1,9 +1,0 @@
-extends layout
-
-block content
-  h1= title
-
-  p This 001 This is a JENKINS and grunt web test project 
-
-  p Hello World
-  
