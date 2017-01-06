@@ -2,7 +2,7 @@
   "name": "node-spider",
   "version": "0.0.0",
   "private": true,
-  "main": "./bin/www",
+  "main": "www.js",
   
   "dependencies": {
     "body-parser": "~1.15.2",
