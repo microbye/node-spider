@@ -86,6 +86,9 @@ module.exports = function(grunt) {
                 ],
             },
         },
+		zip: {
+			'zip/package.zip': ['bin/*','routes/*','**/**']
+		}
 
     });
 
@@ -103,4 +106,6 @@ module.exports = function(grunt) {
 
     //加载’copy‘复制插件
     grunt.loadNpmTasks('grunt-contrib-copy');
+	// Load in `grunt-zip` 
+	grunt.loadNpmTasks('grunt-zip');
 };

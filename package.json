@@ -23,6 +23,7 @@
     "grunt-contrib-qunit": "^1.2.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-jscs": "^3.0.1",
+    "grunt-zip": "^0.17.1",
     "jscs-html-reporter": "^0.1.0",
     "webpack": "^1.14.0"
   }
