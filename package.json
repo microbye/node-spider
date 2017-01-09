@@ -4,9 +4,6 @@
   "private": true,
   "main": "www.js",
   
-  "dependencies": {
-    "jshint-html-reporter": "^0.2.4",
-  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
@@ -16,6 +13,7 @@
     "grunt-jscs": "^3.0.1",
     "grunt-zip": "^0.17.1",
     "jscs-html-reporter": "^0.1.0",
+	"jshint-html-reporter": "^0.2.4",
     "webpack": "^1.14.0"
   }
 }
