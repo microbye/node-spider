@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
-                    // includes files within path
+                    /*includes files within path
                     {expand: true, src: ['node_modules/*'], dest: 'dist/'},
 
                     // includes files within path and its sub-directories
@@ -81,7 +81,7 @@ module.exports = function(grunt) {
                     {expand: true, src: ['public/stylesheets/**'], dest: 'dist/'},
                     {expand: true, src: ['public/javascripts/**'], dest: 'dist/'},
                     {expand: true, src: ['data/**'], dest: 'dist/'},
-                    {expand: true, src: ['package.json'], dest: 'dist/'},
+                    {expand: true, src: ['package.json'], dest: 'dist/'},*/
                     {expand: true, src: ['bin/www'], dest: 'dist/'},
                 ],
             },
