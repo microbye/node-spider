@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
 
-  p  make another changes for this code. This 001 This is a vsts and grunt web test project 
+  p  002make another changes for this code. This 001 This is a vsts and grunt web test project 
 
   p Hello World
   
