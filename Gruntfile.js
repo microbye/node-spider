@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         jshint: {
             all: [
                 'bin/*.js',
-                'public/*/*.js',
+                'public/app/backTop.js',
                 'script/*/*.js',
                 'app.js',
                 'Gruntfile.js'
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         },
         jscs: {
             src: [ 'bin/*.js',
-                'public/*/*.js',
+                'public/app/backTop.js',
                 'script/*/*.js',
                 'app.js',
                 'Gruntfile.js'
